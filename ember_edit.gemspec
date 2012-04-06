@@ -7,17 +7,13 @@ require "ember_edit/version"
 Gem::Specification.new do |s|
   s.name        = "ember_edit"
   s.version     = EmberEdit::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of EmberEdit."
-  s.description = "TODO: Description of EmberEdit."
+  s.authors     = ["Anders Nøklestad"]
+  s.summary     = "Rails 3 engine for inspecting and editing Ember.js views and templates."
+  s.description = "Rails 3 engine that helps developing Rails applications with an Ember.js front-end. " +
+    "Inspect your Ember views and templates in your browser and click to open them in your favourite editor."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.1"
-  # s.add_dependency "jquery-rails"
-
-  s.add_development_dependency "sqlite3"
 end
