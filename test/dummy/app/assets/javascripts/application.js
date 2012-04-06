@@ -11,5 +11,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
+//= require ember-0.9.6
+//= require ember_edit/ember_edit
 //= require_tree .
