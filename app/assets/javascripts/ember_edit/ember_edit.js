@@ -3,7 +3,7 @@ $(function() {
   // makes it work across all browsers
   // (see http://jqueryfordesigners.com/adding-keyboard-navigation/).
   $(document.documentElement).on('keydown', function(e) {
-    if(e.which === 69 && e.ctrlKey && e.altKey && e.metaKey) {
+    if(e.which === 69 && e.ctrlKey && e.altKey) {
       EmberEdit.activate();
     }
   });
