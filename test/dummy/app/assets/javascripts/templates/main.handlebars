@@ -1,0 +1,6 @@
+<h1>A selection of excellent bands</h1>
+<ul>
+  {{#each App.bandsController}}
+  {{view App.BandView bandBinding="this"}}
+  {{/each}}
+</ul>
