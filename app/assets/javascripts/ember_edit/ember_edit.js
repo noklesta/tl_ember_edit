@@ -1,4 +1,6 @@
 //= require ember_edit/core
+//= require ember_edit/view_overlay
+
 $(function() {
   // Handle keyboard events. Attaching the handler to document.documentElement
   // makes it work across all browsers
@@ -19,27 +21,41 @@ $(function() {
 
 EmberEdit.reopen({
   activate: function() {
-    if(EmberEdit.overlay) return;
+    if(this.bodyOverlay) return;
 
+    this.createBodyOverlay();
+    this.createViewOverlays();
+    this.setupEventHandlers();
+  },
+
+  deactivate: function() {
+    this.removeEventHandlers();
+    this.destroyViewOverlays();
+    this.destroyBodyOverlay();
+  },
+
+  createBodyOverlay: function() {
+    this.bodyOverlay = $('<div/>').addClass('ee-body-overlay').appendTo('body');
+  },
+
+  createViewOverlays: function() {
     // Ember.View.views is an object that contains those views that currently
     // exist in the DOM (excluding, for instance, views inside an #if block that
     // currently evaluates to false). So, in order to highlight the currently
     // displayed views, we get the Ember.View.views object each time we activate
     // the ember_edit functionality.
-    EmberEdit.views = Ember.View.views;
+    this.views = Ember.View.views;
 
-    var createOverlay = function() {
-      EmberEdit.overlay = $('<div/>').css({
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        bottom: 0,
-        right: 0,
-        backgroundColor: 'black',
-        opacity: 0.3
-      }).appendTo('body');
-    };
+    var views = this.views;
+    this.viewOverlays = $.map($('.ember-view[id]'), function(elm) {
+      var obj = EmberEdit.ViewOverlay.create({
+        emberViewElm: $(elm),
+        emberView: views[elm.id]
+      });
+    });
+  },
 
-    createOverlay();
+  setupEventHandlers: function() {
+
   }
 });
