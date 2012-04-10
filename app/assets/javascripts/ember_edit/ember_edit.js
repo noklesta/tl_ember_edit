@@ -1,15 +1,23 @@
+//= require ember_edit/core
 $(function() {
   // Handle keyboard events. Attaching the handler to document.documentElement
   // makes it work across all browsers
   // (see http://jqueryfordesigners.com/adding-keyboard-navigation/).
   $(document.documentElement).on('keydown', function(e) {
-    if(e.which === 69 && e.ctrlKey && e.altKey) {
+    var hotkey = EmberEdit.KEYS.activate;
+    var keyCode = hotkey.key.toUpperCase().charCodeAt(),
+        ctrl    = hotkey.ctrl,
+        alt     = hotkey.alt,
+        shift   = hotkey.shift;
+
+    if(e.which === keyCode &&
+      (!ctrl || e.ctrlKey) && (!alt || e.altKey) && (!shift || e.shiftKey)) {
       EmberEdit.activate();
     }
   });
 });
 
-window.EmberEdit = Ember.Namespace.create({
+EmberEdit.reopen({
   activate: function() {
     if(EmberEdit.overlay) return;
 

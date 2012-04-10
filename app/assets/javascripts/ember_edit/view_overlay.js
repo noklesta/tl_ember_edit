@@ -1,4 +1,4 @@
-window.EmberEdit = Ember.Namespace.create({
+EmberEdit.reopen({
 
   ViewOverlay: Ember.Object.extend({
     // HTML element
