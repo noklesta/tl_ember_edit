@@ -4,15 +4,23 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: black;
-  opacity: 0.3;
+  background: rgba(0, 0, 0, .3);
+}
+
+.ee-infobox {
+  position: absolute;
+  background-color: white;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  border: 1px solid black;
+  padding: 0px 2px;
+  display: none;
 }
 
 .ee-view-overlay {
   position: absolute;
 
   &:hover {
-    background-color: yellow;
-    opacity: 0.3;
+    background: rgba(255, 255, 0, .3);
   }
 }

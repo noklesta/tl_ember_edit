@@ -56,6 +56,7 @@ EmberEdit.reopen({
   },
 
   setupEventHandlers: function() {
-
+    this.bodyOverlay.on('mouseover', '.ee-view-overlay', EmberEdit.ViewOverlay.onMouseOver);
+    this.bodyOverlay.on('mouseout',  '.ee-view-overlay', EmberEdit.ViewOverlay.onMouseOut);
   }
 });
