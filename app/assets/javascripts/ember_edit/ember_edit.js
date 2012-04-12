@@ -23,22 +23,24 @@ EmberEdit.reopen({
   activate: function() {
     if(this.bodyOverlay) return;
 
-    this.createBodyOverlay();
-    this.createViewOverlays();
-    this.setupEventHandlers();
+    this._createBodyOverlay();
+    this._createViewOverlays();
+    this._setupEventHandlers();
   },
 
   deactivate: function() {
-    this.removeEventHandlers();
-    this.destroyViewOverlays();
-    this.destroyBodyOverlay();
+    this._removeEventHandlers();
+    this._destroyViewOverlays();
+    this._destroyBodyOverlay();
   },
 
-  createBodyOverlay: function() {
+  // Private methods
+
+  _createBodyOverlay: function() {
     this.bodyOverlay = $('<div/>').addClass('ee-body-overlay').appendTo('body');
   },
 
-  createViewOverlays: function() {
+  _createViewOverlays: function() {
     // Ember.View.views is an object that contains those views that currently
     // exist in the DOM (excluding, for instance, views inside an #if block that
     // currently evaluates to false). So, in order to highlight the currently
@@ -55,7 +57,7 @@ EmberEdit.reopen({
     });
   },
 
-  setupEventHandlers: function() {
+  _setupEventHandlers: function() {
     this.bodyOverlay.on('mouseover', '.ee-view-overlay', EmberEdit.ViewOverlay.onMouseOver);
     this.bodyOverlay.on('mouseout',  '.ee-view-overlay', EmberEdit.ViewOverlay.onMouseOut);
   }
