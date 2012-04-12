@@ -1,4 +1,4 @@
-EmberEdit.reopen({
+TlEmberEdit.reopen({
 
   ViewOverlay: Ember.Object.extend({
 
@@ -34,7 +34,7 @@ EmberEdit.reopen({
         height: height
       })
       .data('overlayObj', this)
-      .appendTo(EmberEdit.bodyOverlay);
+      .appendTo(TlEmberEdit.bodyOverlay);
 
       this.set('overlayElm', overlay);
     },
@@ -47,7 +47,7 @@ EmberEdit.reopen({
         top:     position.top + height
       })
       .html('aaa')
-      .appendTo(EmberEdit.bodyOverlay);
+      .appendTo(TlEmberEdit.bodyOverlay);
 
       this.set('infoBoxElm', infoBox);
     }
@@ -55,7 +55,7 @@ EmberEdit.reopen({
 
 });
 
-EmberEdit.ViewOverlay.reopenClass({
+TlEmberEdit.ViewOverlay.reopenClass({
   onMouseOver: function() {
     $('#' + this.id + '-info').show();
   },

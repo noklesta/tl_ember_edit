@@ -12,5 +12,5 @@
 //
 //= require jquery
 //= require ember-0.9.6
-//= require ember_edit/ember_edit
+//= require tl_ember_edit/tl_ember_edit
 //= require_tree .

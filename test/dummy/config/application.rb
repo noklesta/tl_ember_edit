@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "ember_edit"
+require "tl_ember_edit"
 
 module Dummy
   class Application < Rails::Application

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ember_edit (0.0.1)
+    tl_ember_edit (0.0.1)
       ember-rails (~> 0.2.4)
       rails (~> 3.2.1)
 
@@ -98,6 +98,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ember_edit!
+  tl_ember_edit!
   jquery-rails
   sqlite3

@@ -1,2 +1,2 @@
-EmberEdit::Engine.routes.draw do
+TlEmberEdit::Engine.routes.draw do
 end

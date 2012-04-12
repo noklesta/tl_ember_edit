@@ -1,4 +1,4 @@
-window.EmberEdit = Ember.Namespace.create({
+window.TlEmberEdit = Ember.Namespace.create({
 
   // Keyboard shortcuts. You can override these in your own
   // JavaScript code at any time.

@@ -1,12 +1,12 @@
-//= require ember_edit/core
-//= require ember_edit/view_overlay
+//= require tl_ember_edit/core
+//= require tl_ember_edit/view_overlay
 
 $(function() {
   // Handle keyboard events. Attaching the handler to document.documentElement
   // makes it work across all browsers
   // (see http://jqueryfordesigners.com/adding-keyboard-navigation/).
   $(document.documentElement).on('keydown', function(e) {
-    var hotkey = EmberEdit.KEYS.activate;
+    var hotkey = TlEmberEdit.KEYS.activate;
     var keyCode = hotkey.key.toUpperCase().charCodeAt(),
         ctrl    = hotkey.ctrl,
         alt     = hotkey.alt,
@@ -14,12 +14,12 @@ $(function() {
 
     if(e.which === keyCode &&
       (!ctrl || e.ctrlKey) && (!alt || e.altKey) && (!shift || e.shiftKey)) {
-      EmberEdit.activate();
+      TlEmberEdit.activate();
     }
   });
 });
 
-EmberEdit.reopen({
+TlEmberEdit.reopen({
   activate: function() {
     if(this.bodyOverlay) return;
 
@@ -45,12 +45,12 @@ EmberEdit.reopen({
     // exist in the DOM (excluding, for instance, views inside an #if block that
     // currently evaluates to false). So, in order to highlight the currently
     // displayed views, we get the Ember.View.views object each time we activate
-    // the ember_edit functionality.
+    // the tl_ember_edit functionality.
     this.views = Ember.View.views;
 
     var views = this.views;
     this.viewOverlays = $.map($('.ember-view[id]'), function(elm) {
-      var obj = EmberEdit.ViewOverlay.create({
+      var obj = TlEmberEdit.ViewOverlay.create({
         emberViewElm: $(elm),
         emberView: views[elm.id]
       });
@@ -58,7 +58,7 @@ EmberEdit.reopen({
   },
 
   _setupEventHandlers: function() {
-    this.bodyOverlay.on('mouseover', '.ee-view-overlay', EmberEdit.ViewOverlay.onMouseOver);
-    this.bodyOverlay.on('mouseout',  '.ee-view-overlay', EmberEdit.ViewOverlay.onMouseOut);
+    this.bodyOverlay.on('mouseover', '.ee-view-overlay', TlEmberEdit.ViewOverlay.onMouseOver);
+    this.bodyOverlay.on('mouseout',  '.ee-view-overlay', TlEmberEdit.ViewOverlay.onMouseOut);
   }
 });

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  mount EmberEdit::Engine => "/ember_edit"
+  mount TlEmberEdit::Engine => "/tl_ember_edit"
 
   root to: 'gui#index'
 end

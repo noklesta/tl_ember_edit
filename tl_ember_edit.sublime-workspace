@@ -1,0 +1,1559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curr",
+				"current_file"
+			],
+			[
+				"remov",
+				"remove_from_list"
+			],
+			[
+				"curre",
+				"current_file"
+			],
+			[
+				"cu",
+				"current_file"
+			],
+			[
+				"is_li",
+				"is_listing_current_file_group"
+			],
+			[
+				"current",
+				"current_file"
+			],
+			[
+				"cou",
+				"could_be_root"
+			],
+			[
+				"could",
+				"could_be_root"
+			],
+			[
+				"dire",
+				"directory"
+			],
+			[
+				"addi",
+				"additional_dir"
+			],
+			[
+				"ex",
+				"exists  (function)"
+			],
+			[
+				"root_in",
+				"root_indicator"
+			],
+			[
+				"root_",
+				"root_indicator"
+			],
+			[
+				"rela",
+				"related_file"
+			],
+			[
+				"CON",
+				"CONTROLLER_SEGMENT  (variable)"
+			],
+			[
+				"CO",
+				"CONTROLLER_SEGMENT  (variable)"
+			],
+			[
+				"MO",
+				"MODEL_SEGMENT  (variable)"
+			],
+			[
+				"MOD",
+				"MODEL_SEGMENT  (variable)"
+			],
+			[
+				"CONTR",
+				"CONTROLLER_SEGMENT"
+			],
+			[
+				"curren",
+				"current_file"
+			],
+			[
+				"sing",
+				"singularize  (function)"
+			],
+			[
+				"Infle",
+				"inflector"
+			],
+			[
+				"RailsCo",
+				"RailsCommandBase"
+			],
+			[
+				"contr",
+				"controllers"
+			],
+			[
+				"control",
+				"controllers"
+			],
+			[
+				"re",
+				"related_file"
+			],
+			[
+				"related",
+				"related_file"
+			],
+			[
+				"rel",
+				"related_file"
+			],
+			[
+				"constru",
+				"construct_related_file_name"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"__class",
+				"__class__  (variable)"
+			],
+			[
+				"subli",
+				"sublime"
+			],
+			[
+				"file_pa",
+				"file_pattern"
+			],
+			[
+				"move_cu",
+				"move_current_file_to_top  (function)"
+			],
+			[
+				"current_file",
+				"current_file"
+			],
+			[
+				"cla",
+				"cla: class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"ha",
+				"halla  (function)"
+			],
+			[
+				"cas",
+				"casecmp  (function)"
+			],
+			[
+				"to",
+				"months  (function)"
+			],
+			[
+				"ca",
+				"capitalize  (function)"
+			],
+			[
+				"cap",
+				"capitalize  (function)"
+			],
+			[
+				"clas",
+				"camelcase  (function)"
+			],
+			[
+				"classif",
+				"classify  (function)"
+			],
+			[
+				"any",
+				"any?  (function)"
+			],
+			[
+				"a",
+				"aaa"
+			],
+			[
+				"if",
+				"if: if … end"
+			],
+			[
+				"end",
+				"end"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/assets/javascripts/tl_ember_edit/view_overlay.js",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/tl_ember_edit/tl_ember_edit.css.scss",
+			"settings":
+			{
+				"buffer_size": 421,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/tl_ember_edit/tl_ember_edit.js",
+			"settings":
+			{
+				"buffer_size": 2012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/tl_ember_edit/core.js",
+			"settings":
+			{
+				"buffer_size": 402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/dummy/app/assets/javascripts/views/main_view.js",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/dummy/vendor/assets/javascripts/ember-0.9.6.js",
+			"settings":
+			{
+				"buffer_size": 510392,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 50.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"so",
+				"Sort Tabs: Menu"
+			],
+			[
+				"sort",
+				"Sort Tabs: Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"mark",
+				"Markdown Preview: current file in browser"
+			],
+			[
+				"gd",
+				"Git: Diff All"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packena",
+				"Package Control: Enable Package"
+			],
+			[
+				"packdi",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"SublimeCodeIntel: Enable Plugin"
+			],
+			[
+				"disa",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"fet",
+				"Fetch: Manage remote files"
+			],
+			[
+				"discov",
+				"Package Control: Discover Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Enable Load-Save Linting"
+			],
+			[
+				"gst",
+				"Git: Status"
+			],
+			[
+				"sftp",
+				"Preferences: SFTP Settings"
+			],
+			[
+				"ubli",
+				"SublimeRailsNav: List controllers"
+			],
+			[
+				"",
+				"ANRailsNav: List javascript files"
+			],
+			[
+				"models",
+				"ANRailsNav: List models"
+			],
+			[
+				"listmo",
+				"ANRailsNav: List models"
+			],
+			[
+				"controllers",
+				"ANRailsNav: List controllers"
+			],
+			[
+				"an",
+				"ANRailsNav: List models"
+			],
+			[
+				"aaa",
+				"z:AAAPackageDev: New Package"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"syntarais",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				":e",
+				":e - Revert"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				":install",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"sub",
+				"SublimeLinter: Enable Load-Save Linting"
+			],
+			[
+				"subl",
+				"SublimeCodeIntel: Enable Plugin"
+			],
+			[
+				"disab",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Background Linting"
+			],
+			[
+				"gdf",
+				"Git: Diff All"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"palist",
+				"Package Control: List Packages"
+			],
+			[
+				"gdi",
+				"Git: Diff Current File"
+			],
+			[
+				"enabe",
+				"Package Control: Enable Package"
+			],
+			[
+				"packen",
+				"Package Control: Enable Package"
+			],
+			[
+				"hyper",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"packinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"pakcinsta",
+				"Package Control: Install Package"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"synta ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"change",
+				"Change tracker: Go to next diff"
+			],
+			[
+				"chang",
+				"Change tracker: Go to next diff"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"padisc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pacinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"pacdisc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"pinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"padis",
+				"Package Control: Disable Package"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"pains",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Discover Packages"
+			],
+			[
+				"sycss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"pdisc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"plist",
+				"Package Control: List Packages"
+			],
+			[
+				"pinst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 235.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/app/assets/stylesheets/tl_ember_edit/tl_ember_edit.css",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/app.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/templates/band.handlebars",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/views/band_view.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/controllers/bands_controller.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/templates/main.handlebars",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/vendor/assets/javascripts/ember-0.9.6.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/Gemfile",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/application.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/tl_ember_edit.gemspec",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/stylesheets/application.css",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/views/gui/index.html.erb",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/views/main_view.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/config/application.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/app/views/layouts/tl_ember_edit/application.html.erb",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/app/assets/javascripts/tl_ember_edit/application.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/app/assets/javascripts/tl_ember_edit/tl_ember_edit.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/app/assets/javascripts/tl_ember_edit/view_overlay.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/views/author_view.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/templates/author.handlebars",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/controllers/authors_controller.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/views/main_view.js.coffee",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/app/assets/stylesheets/tl_ember_edit/tl_ember_edit.css.scss",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/app/assets/stylesheets/tl_ember_edit/application.css",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/Gemfile",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/test/dummy/app/assets/javascripts/gui.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/engines/tl_ember_edit/tl_ember_edit.sublime-project",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/.gitignore",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/README.md",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/Default.sublime-commands",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/SublimeRailsNav.py",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/SublimeRailsNav.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/lib/inflector/__init__.py",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/lib/inflector/languages/english.py",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeRailsNav/lib/inflector/languages/spanish.py",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/Base File.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/sidaama.sublime-project",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/javascripts/controllers/lemmas_controller.coffee.erb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/models/sense.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/controllers/json_controller.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/controllers/versions_controller.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/lib/assets/javascripts/tl/mixins/controllers/slick_grid_controller_mixin.coffee",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/ANRailsNav.sublime-settings",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/stylesheets/reset.css",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/stylesheets/lemmas.css.scss",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/models/lemma.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/Gemfile",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/.gitignore",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/controllers/lemmas_controller.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/models/example.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/controllers/gui_controller.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/README",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/vendor/assets/javascripts/slick.core.js",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/javascripts/models/lemma.coffee",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/Gemfile",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/controllers/application_controller.rb",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/config/boot.rb",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/config/application.rb",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/controllers/gui_controller.rb",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/config/routes.rb",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/Rakefile",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/assets/javascripts/application.js",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/UberSelection/vimactions.py",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/Terminal.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/helpers/gui_helper.rb",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/assets/javascripts/gui.js",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Git/Default.sublime-commands",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/views/gui/",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Open Recent Files/Default.sublime-keymap",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/views/gui/index.html.erb",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/ZenCoding/Default (OSX).sublime-keymap",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/lib/xrelations/version.rb",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/xrelations.gemspec",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/lib/xrelations.rb",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/views/layouts/application.html.erb",
+		"/Users/noklesta_local/rails_apps/pht/plugins/non-mountable/xrelations/test/dummy/app/assets/stylesheets/application.css",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Vintage Dev/Base File (OSX).sublime-settings",
+		"/Users/noklesta_local/pht_son_10.12.09.pptx",
+		"/Users/noklesta_local/tmp/untitled.rb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/stylesheets/base.css.scss",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/javascripts/sidaama.js.coffee.erb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/config/routes.rb",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/javascripts/function_bind.js",
+		"/Users/noklesta_local/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Twilight.tmTheme",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/javascripts/application.js.erb",
+		"/Users/noklesta_local/rails_apps/tekstlab/sidaama/app/assets/javascripts/sidaama.js.coffee.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"create =",
+			"init",
+			"makeCtor",
+			"colo",
+			"opaci",
+			"appendTo",
+			"mouse",
+			"model",
+			"filter",
+			"Namespace =",
+			"Namespace",
+			"append:",
+			"this",
+			"console.log",
+			"gem",
+			"destroy =",
+			"destroy",
+			"reopen",
+			"map",
+			"Object.extend",
+			"Object =",
+			"overlay",
+			"overla",
+			"Namespace =",
+			"Namespace",
+			"filter:",
+			"keys",
+			"views =",
+			"views",
+			"Button",
+			"Namespace.crea",
+			"Namespace",
+			"Namespace.crea",
+			"SublimeRailsNav",
+			"sublimerail",
+			"is_listing_current_file_group",
+			"remove_from",
+			"relat",
+			"AN",
+			"---",
+			"setup",
+			"comment",
+			"models",
+			"class",
+			"Command",
+			"is_listing_current_file_group",
+			"remove_from_list",
+			"is_list",
+			"move_related_file_to_top",
+			"Command",
+			"construct_related_file_name",
+			"move_related_file_to_top",
+			"javascrip",
+			"could",
+			"/",
+			"join",
+			"os.path",
+			"path.j",
+			"/",
+			"print",
+			"move_cu",
+			"file_pa",
+			"start_ind",
+			"get_set",
+			"view",
+			"ruby",
+			"window",
+			"belongs_to",
+			"		",
+			"require",
+			"space",
+			"outline",
+			"save",
+			"open",
+			"pair",
+			"find",
+			"tab",
+			"close",
+			"will",
+			"starting",
+			"class"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/assets/javascripts/tl_ember_edit/view_overlay.js",
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/stylesheets/tl_ember_edit/tl_ember_edit.css.scss",
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/javascripts/tl_ember_edit/tl_ember_edit.js",
+					"settings":
+					{
+						"buffer_size": 2012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								953,
+								953
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 163.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/javascripts/tl_ember_edit/core.js",
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "test/dummy/app/assets/javascripts/views/main_view.js",
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "test/dummy/vendor/assets/javascripts/ember-0.9.6.js",
+					"settings":
+					{
+						"buffer_size": 510392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297894,
+								297902
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 150398.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"ember-",
+				"test/dummy/vendor/assets/javascripts/ember-0.9.6.js"
+			],
+			[
+				"ember.js",
+				"test/dummy/vendor/assets/javascripts/ember-0.9.6.js"
+			],
+			[
+				"",
+				"test/dummy/app/assets/javascripts/templates/main.handlebars"
+			],
+			[
+				"main_vi",
+				"test/dummy/app/assets/javascripts/views/main_view.js"
+			],
+			[
+				"bands_co",
+				"test/dummy/app/assets/javascripts/controllers/bands_controller.js"
+			],
+			[
+				"mainha",
+				"test/dummy/app/assets/javascripts/templates/main.handlebars"
+			],
+			[
+				"templates",
+				"test/dummy/app/assets/javascripts/templates/band.handlebars"
+			],
+			[
+				"views",
+				"test/dummy/app/assets/javascripts/views/band_view.js"
+			],
+			[
+				"app.js",
+				"test/dummy/app/assets/javascripts/app.js"
+			],
+			[
+				"gemfi",
+				"test/dummy/Gemfile"
+			],
+			[
+				"appljs",
+				"test/dummy/app/assets/javascripts/application.js"
+			],
+			[
+				"applica",
+				"test/dummy/config/application.rb"
+			],
+			[
+				"applijs",
+				"test/dummy/app/assets/javascripts/application.js"
+			],
+			[
+				"main_v",
+				"test/dummy/app/assets/javascripts/views/main_view.js"
+			],
+			[
+				"gem",
+				"tl_ember_edit.gemspec"
+			],
+			[
+				"gui",
+				"test/dummy/app/views/gui/index.html.erb"
+			],
+			[
+				"applicss",
+				"test/dummy/app/assets/stylesheets/application.css"
+			],
+			[
+				"config/",
+				"test/dummy/config/application.rb"
+			],
+			[
+				"gemspe",
+				"tl_ember_edit.gemspec"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"tesdum/apja",
+				"test/dummy/app/assets/javascripts/application.js"
+			],
+			[
+				"gui.js",
+				"test/dummy/app/assets/javascripts/gui.js"
+			],
+			[
+				"comm",
+				"Default.sublime-commands"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"sett",
+				"SublimeRailsNav.sublime-settings"
+			],
+			[
+				"sub",
+				"SublimeRailsNav.py"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"spani",
+				"lib/inflector/languages/spanish.py"
+			],
+			[
+				"inflect",
+				"lib/inflector/languages/english.py"
+			],
+			[
+				"inflector",
+				"lib/inflector/__init__.py"
+			],
+			[
+				".js",
+				"vendor/assets/javascripts/slick.core.js"
+			],
+			[
+				"ap/model",
+				"app/models/sense.rb"
+			],
+			[
+				"models/lem",
+				"app/assets/javascripts/models/lemma.coffee"
+			],
+			[
+				"appmodlem",
+				"app/models/lemma.rb"
+			],
+			[
+				"assjavacontr",
+				"app/assets/javascripts/controllers/lemmas_controller.coffee.erb"
+			],
+			[
+				"con/ver",
+				"app/controllers/versions_controller.rb"
+			],
+			[
+				"contro",
+				"test/dummy/app/controllers/application_controller.rb"
+			],
+			[
+				"migra",
+				"db/migrate/20111225031340_create_relations.rb"
+			],
+			[
+				"rela",
+				"app/models/relation.rb"
+			],
+			[
+				"rake",
+				"Rakefile"
+			],
+			[
+				".rb",
+				"config/boot.rb"
+			],
+			[
+				"test/",
+				"test/functional/gui_controller_test.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"routes",
+				"test/dummy/config/routes.rb"
+			],
+			[
+				"gui.",
+				"test/dummy/app/views/gui/index.html.erb"
+			],
+			[
+				"route",
+				"test/dummy/config/routes.rb"
+			],
+			[
+				"gemspec",
+				"xrelations.gemspec"
+			],
+			[
+				"css",
+				"test/dummy/app/assets/stylesheets/application.css"
+			],
+			[
+				"appli",
+				"test/dummy/app/views/layouts/application.html.erb"
+			],
+			[
+				"scss",
+				"app/assets/stylesheets/base.css.scss"
+			],
+			[
+				"controll",
+				"app/controllers/gui_controller.rb"
+			],
+			[
+				"app/ass",
+				"app/assets/javascripts/function_bind.js"
+			],
+			[
+				"appassja",
+				"app/assets/javascripts/application.js.erb"
+			],
+			[
+				"ap/models",
+				"app/models/sense.rb"
+			],
+			[
+				".giti",
+				".gitignore"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"appassets",
+				"app/assets/javascripts/sidaama.js.coffee.erb"
+			],
+			[
+				"apassets",
+				"app/assets/javascripts/sidaama.js.coffee.erb"
+			]
+		],
+		"width": 380.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/noklesta_local/rails_apps/pht/mylease/mylease.sublime-project"
+			],
+			[
+				"kri",
+				"/Users/noklesta_local/rails_apps/kristin/word_groups-test/word_groups-test.sublime-project"
+			],
+			[
+				"sida",
+				"/Users/noklesta_local/rails_apps/tekstlab/sidaama_ember/sidaama_ember.sublime-project"
+			],
+			[
+				"acen",
+				"/Users/noklesta_local/rails_apps/pht/rails2/git/acento_assets/acento_assets.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true
+}
