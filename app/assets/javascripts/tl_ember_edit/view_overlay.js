@@ -24,6 +24,31 @@ TlEmberEdit.reopen({
       this._createInfoBox(elm, position, width, height);
     },
 
+    editView: function() {
+      console.log(this.get('emberView'));
+    },
+
+    editTemplate: function() {
+    },
+
+    showParentView: function() {
+    },
+
+    showChildViews: function() {
+    },
+
+    onMouseOver: function() {
+      TlEmberEdit.ViewOverlay.selectedView = this;
+    },
+
+    onMouseOut: function() {
+      TlEmberEdit.ViewOverlay.selectedView = null;
+    },
+
+    ////////////
+    // private
+    ////////////
+
     _createOverlay: function(elm, position, width, height) {
       var overlay = $('<div/>', {id: elm.attr('id') + '-overlay'})
       .addClass('ee-view-overlay')
@@ -68,9 +93,11 @@ TlEmberEdit.reopen({
 TlEmberEdit.ViewOverlay.reopenClass({
   onMouseOver: function() {
     $('#' + this.id + '-info').show();
+    $(this).data('overlayObj').onMouseOver();
   },
 
   onMouseOut: function() {
     $('#' + this.id + '-info').hide();
+    $(this).data('overlayObj').onMouseOut();
   }
 });

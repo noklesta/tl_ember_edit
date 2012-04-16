@@ -6,14 +6,10 @@ $(function() {
   // makes it work across all browsers
   // (see http://jqueryfordesigners.com/adding-keyboard-navigation/).
   $(document.documentElement).on('keydown', function(e) {
-    var hotkey = TlEmberEdit.KEYS.activate;
-    var keyCode = hotkey.key.toUpperCase().charCodeAt(),
-        ctrl    = hotkey.ctrl,
-        alt     = hotkey.alt,
-        shift   = hotkey.shift;
+    var key = TlEmberEdit.getHotkey('activate');
 
-    if(e.which === keyCode &&
-      (!ctrl || e.ctrlKey) && (!alt || e.altKey) && (!shift || e.shiftKey)) {
+    if(e.which === key.keyCode &&
+      key.ctrl == e.ctrlKey && key.alt == e.altKey && key.shift == e.shiftKey) {
       TlEmberEdit.activate();
     }
   });
@@ -60,5 +56,25 @@ TlEmberEdit.reopen({
   _setupEventHandlers: function() {
     this.bodyOverlay.on('mouseover', '.ee-view-overlay', TlEmberEdit.ViewOverlay.onMouseOver);
     this.bodyOverlay.on('mouseout',  '.ee-view-overlay', TlEmberEdit.ViewOverlay.onMouseOut);
+
+    $(document.documentElement).on('keydown', $.proxy(this._keyEventHandler, this));
+  },
+
+  _keyEventHandler: function(e) {
+    var i, tasks = ['editView', 'editTemplate', 'showParentView', 'showChildViews'],
+        tasksLength = tasks.length, task, key, view;
+
+    for(i = 0; i < tasksLength; i++) {
+      task = tasks[i];
+      key = TlEmberEdit.getHotkey(task);
+
+      if(e.which === key.keyCode &&
+        key.ctrl == e.ctrlKey && key.alt == e.altKey && key.shift == e.shiftKey) {
+        view = TlEmberEdit.ViewOverlay.selectedView;
+      if(view) {
+        view[task]();
+      }
+    }
   }
+}
 });
