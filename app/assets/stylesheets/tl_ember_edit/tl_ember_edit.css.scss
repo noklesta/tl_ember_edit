@@ -12,9 +12,14 @@
   background-color: white;
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 11px;
-  border: 1px solid black;
-  padding: 0px 2px;
+  border: 1px solid #5f5f5f;
+  box-shadow: 1px 1px 1px #5f5f5f;
+  padding: 2px;
   display: none;
+
+  .ee-view-id {
+    font-style: italic;
+  }
 }
 
 .ee-view-overlay {

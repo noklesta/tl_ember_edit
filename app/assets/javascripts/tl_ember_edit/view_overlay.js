@@ -40,13 +40,23 @@ TlEmberEdit.reopen({
     },
 
     _createInfoBox: function(elm, position, width, height) {
-      var infoBox = $('<div/>', {id: elm.attr('id') + '-overlay-info'})
+      var view = this.get('emberView'), matches, infoText, templateName, infoBox;
+
+      matches = view.toString().match(/subclass of (.+)\):(.+)>/);
+      infoText = Ember.String.fmt('%@ <span class="ee-view-id">(%@)</span>', [matches[1], matches[2]]);
+
+      templateName = view.get('templateName');
+      if(templateName) {
+        infoText += ' [' + templateName + ']';
+      }
+
+      infoBox = $('<div/>', {id: elm.attr('id') + '-overlay-info'})
       .addClass('ee-infobox')
       .css({
         left:    position.left,
         top:     position.top + height
       })
-      .html('aaa')
+      .html(infoText)
       .appendTo(TlEmberEdit.bodyOverlay);
 
       this.set('infoBoxElm', infoBox);
