@@ -13,4 +13,13 @@
 //= require jquery
 //= require ember-0.9.6
 //= require tl_ember_edit/tl_ember_edit
-//= require_tree .
+
+//= require app
+//= require_tree ./mixins
+//= require_tree ./models
+//= require_tree ./controllers
+//= require_tree ./views
+//= require_tree ./templates
+//= require_tree ./states
+//= require_tree ./data
+
