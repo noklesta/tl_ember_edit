@@ -25,7 +25,17 @@ TlEmberEdit.reopen({
     },
 
     editView: function() {
-      console.log(this.get('emberView'));
+      var view = this.get('emberView'),
+          matches = view.toString().match(/subclass of (.+)\):/),
+          viewClass = matches[1];
+
+      $.ajax({
+        url: 'tl_ember_edit/view',
+        data: {cls: viewClass},
+        error: function() {
+          alert('Unable to open file for ' + viewClass);
+        }
+      });
     },
 
     editTemplate: function() {
