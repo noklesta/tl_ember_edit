@@ -39,6 +39,18 @@ TlEmberEdit.reopen({
     },
 
     editTemplate: function() {
+      var view = this.get('emberView'),
+          template = view.templateName;
+
+      if(!template) return;
+
+      $.ajax({
+        url: 'tl_ember_edit/template',
+        data: {tpl: template},
+        error: function() {
+          alert('Unable to open file for ' + template);
+        }
+      });
     },
 
     showParentView: function() {

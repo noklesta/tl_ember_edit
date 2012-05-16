@@ -1,30 +1,58 @@
 module TlEmberEdit
-
-  # Override this in an initializer or your application.rb to customize your
-  # editor command. 'FILENAME' will be replaced by the actual file name.
-  TlEmberEdit::EDIT_CMD = "subl FILENAME"
-
   class EditController < ApplicationController
     def view
-      # Change from SnakeCase to under_score
-      filename = params[:cls].underscore
+      # Change from CamelCase to under_score
+      cls = params[:cls].underscore
 
       # Remove the app namespace
-      filename.sub!(/^.+?\./, '')
+      cls.sub!(/^.+?\./, '')
 
-      filename = "#{Rails.root}/app/assets/javascripts/views/#{filename}"
+      @filename = "#{Rails.root}/#{EMBER_ROOT}/#{VIEWS_DIR}/#{cls}"
 
-      ['js', 'js.coffee', 'coffee'].each do |extension|
-        candidate = filename + '.' + extension
+      try_extensions(['js', 'js.coffee', 'coffee'])
+
+      system(EDIT_CMD.sub('FILENAME', @filename))
+
+      head :ok
+    end
+
+
+    def template
+      has_ember_rails = Module.const_defined?('Ember') && Ember.const_defined?('Rails')
+
+      if has_ember_rails
+        ember_config = Ember::Rails::Engine.config.handlebars
+        templates_root = ember_config.templates_root || ''
+        templates_path_separator = ember_config.templates_path_separator || '/'
+      else
+        templates_root = ''
+        templates_path_separator = '/'
+      end
+
+      templates_root = templates_root.present? ? templates_root + '/' : ''
+      template_path = templates_root + params[:tpl].gsub(templates_path_separator, '/')
+
+      @filename = "#{Rails.root}/#{EMBER_ROOT}/#{params[:tpl]}"
+
+      try_extensions(['handlebars', 'js.hjs', 'hbs'])
+
+      system(EDIT_CMD.sub('FILENAME', @filename))
+
+      head :ok
+    end
+
+    ########
+    private
+    ########
+
+    def try_extensions(extensions)
+      extensions.each do |extension|
+        candidate = @filename + '.' + extension
         if File.exists?(candidate)
-          filename = candidate
+          @filename = candidate
           break
         end
       end
-
-      system(EDIT_CMD.sub('FILENAME', filename))
-
-      head :ok
     end
   end
 end
