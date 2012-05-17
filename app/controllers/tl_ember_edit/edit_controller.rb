@@ -11,9 +11,7 @@ module TlEmberEdit
 
       try_extensions(['js', 'js.coffee', 'coffee'])
 
-      system(EDIT_CMD.sub('FILENAME', @filename))
-
-      head :ok
+      start_editor_and_render
     end
 
 
@@ -36,7 +34,7 @@ module TlEmberEdit
 
       try_extensions(['handlebars', 'js.hjs', 'hbs'])
 
-      system(EDIT_CMD.sub('FILENAME', @filename))
+      start_editor_and_render
 
       head :ok
     end
@@ -50,8 +48,22 @@ module TlEmberEdit
         candidate = @filename + '.' + extension
         if File.exists?(candidate)
           @filename = candidate
-          break
+          return
         end
+      end
+      @filename = nil
+    end
+
+    def start_editor
+      system(EDIT_CMD.sub('FILENAME', @filename))
+    end
+
+    def start_editor_and_render
+      if @filename
+        start_editor
+        head :ok
+      else
+        render json: {msg: 'File not found'}, status: :internal_server_error
       end
     end
   end
